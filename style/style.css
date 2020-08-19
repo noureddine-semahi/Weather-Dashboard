@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+body {
+  background-image: url("../assets/four-seasons.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.container-fluid {
+  position: relative;
+}
+
+.row {
+  height: 
+}
+
+.col-4 {
+  position: relative;
+  display: flex;
+  width: 20vw;
+  align-items: flex-start;
+  border: 5px solid black;
+  border-radius: 25px 25px 25px 25px;
+  background-image: url("../assets/globe.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 660px;
+  color: white;
+  filter: alpha(opacity=40);
+}
+
+.form-inline {
+  position: relative;
+}
+
+#city {
+  position: relative;
+  height: 50px;
+  width: 380px;
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+  border: 2px solid orange;
+  border-radius: 60px 60px 60px 60px;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#submit-city {
+  position: relative;
+  border: 2px solid rgb(250, 11, 51);
+  border-radius: 60px 60px 60px 60px;
+  height: 50px;
+  width: 100px;
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  font-family: 'Russo One', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.mr-7 {
+  position: relative;
+  width: 500px;
+}
+
+.list-group-item {
+  position: relative;
+  margin-bottom: 5px;
+  width: 500px;
+  border: 6px solid black;
+  background-color: #ff0000;
+  background-image: linear-gradient(315deg, #ff0000 0%, #ffed00 74%);
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 40px;
+  color: black;
+}
+
+#clear {
+  border: 2px solid rgb(250, 11, 51);
+  border-radius: 60px 60px 60px 60px;
+  height: 50px;
+  width: 100px;
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+  font-family: 'Russo One', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.text-center {
+  height: 100px;
+  width: 100vw;
+  background-color: #a71308;
+  background-image: linear-gradient(315deg, #f12213 0%, #1c48c2 88%);
+  border-bottom   : 8px solid black;
+}
+
+.col-7 {
+  border: 5px solid black;
+  color: white;
+  border-radius: 0px 45px 0px 45px;
+}
+
+.bg-light {
+  border: 5px solid black;
+  color: white;
+  border-radius: 0px 45px 0px 45px;
+  -webkit-box-shadow: 46px 43px 72px 16px rgba(0,0,0,0.76);
+  -moz-box-shadow: 46px 43px 72px 16px rgba(0,0,0,0.76);
+  box-shadow: 46px 43px 72px 16px rgba(0,0,0,0.76);
+}
+
+.bg-primary {
+  border: 5px solid black;
+  color: white;
+  border-radius: 0px 45px 0px 45px;
+  -webkit-box-shadow: 46px 43px 72px 16px rgba(0,0,0,0.76);
+  -moz-box-shadow: 46px 43px 72px 16px rgba(0,0,0,0.76);
+  box-shadow: 46px 43px 72px 16px rgba(0,0,0,0.76);
+  height: 300px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(245, 5, 5, 0.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(245, 5, 5, 0.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(250, 6, 6, 0.4));
+}
+
+h1 {
+  margin: 15px auto;
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.1em;
+}
+
+#current-city {
+  margin: auto;
+  font-family: 'Bangers', cursive;
+  font-size: 50px;
+  color: rgb(243, 18, 18);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 0.05em;
+}
+
+p {
+  margin: auto;
+  margin-bottom: 5px;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 0.09rem;
+}
+
+#current-weather{
+  text-align: justify;
+  border-radius: 0px 45px 0px 45px;
+  border: 1px solid grey;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+}
